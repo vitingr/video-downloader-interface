@@ -13,7 +13,7 @@ export default function Home() {
 
     console.log(`A URL É ${url}`)
     e.preventDefault() // O handlesubmit funciona como o DOM para pegar valores de inputs
-    window.location.href = (`http://localhost:8080/ytdownload?url=${url}`)
+    window.location.href = (`https://backend-yt.vercel.app//ytdownload?url=${url}`)
 
   }
 
